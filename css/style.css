@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{margin: 0;padding: 0;}
+.font-p{font-family: kalam;}.font-s{font-family: Jost;font-weight: 500;}.font-s-reg{font-family: 'lato';font-weight: 400;}
+body{width: 100%;}
+header{transition: .5s;}
+.nav-top ul{list-style-type: none;}
+.nav-top ul li{padding: 6px 8px;display: inline-block;font-family: Jost;font-weight: 500;border: 2px solid transparent;transition: .3s all;}.nav-top ul li.active{border: 2px solid #fff;}
+.nav-top ul li a{color: #fff;text-decoration: none;}
+section#hero{background:url('file:///C:/Users/Windows/Downloads/pexels-pixabay-270348%20(1).jpg');width: 100%;background-attachment: fixed;}section#hero .container-fluid{background: rgba(0, 0, 0, 0.822);}
+section#services{background: rgb(85, 2, 2);}
+section#portfolio{background:rgb(187, 255, 0);}
+#mob-nav-cont{display: none;}
+.filter ul{text-align: center;}
+.filter ul li{display: inline-block;background: rgb(0, 0, 0);padding: 8px 12px;font-family: 'Jost';color: #fff;cursor: pointer;user-select: none;text-transform: uppercase;margin: 4px;}
+@media screen and (max-width:980px){
+ header .container-fluid{justify-content: space-between!important;}
+ .nav-top{display: none !important;}
+ #mob-nav-cont{display: block;}
+}
+#form-contact{background: #efeff5;}
+.icon svg{height: 118px;}
+.serv .col-md-3{border: 2px solid #fff;margin: 10px;}
+.cof{box-shadow: none !important;outline:none;font-family: 'Lato';line-height: 30px;}.cof::placeholder{color: #1a202c;font-family: 'Lato';}
+.col-si{color: #e21e51;letter-spacing: 2.5px;}
+textarea.cof{line-height: inherit;}
+.filter ul li.mixitup-control-active{color:rgb(187, 255, 0);}
+section#offcanvas{background: rgb(0 0 0 / 96%);width: 100%;height: 100vh;position: fixed;}
+section#offcanvas .bott{height: 85vh;}
+section#offcanvas .bott ul{list-style-type: none;}section#offcanvas .bott ul li{font-family: 'Lato';font-size:20px;padding: 16px 8px;text-align: center;}
+section#offcanvas .bott ul li a{text-decoration: none;color: #fff;}
